@@ -1,11 +1,19 @@
+:root {
+  --back-color: #5cdb95;
+  --primary-color: #05386b;
+  --secondary-color: #379683;
+  --light-color: #8ee4af;
+  --elementery-color: #edf5e1;
+}
+
 body {
-  background: red;
+  background: var(--back-color);
+  color: var(--primary-color);
 }
 
 .hero {
   padding: 160px 20px;
   text-align: center;
-  background: #5cdb95;
 }
 .hero h2 {
   font-family: "Poppins", sans-serif;
@@ -21,4 +29,8 @@ h1 {
 .hero h3 {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
+}
+
+.btn-branding {
+  background: white;
 }
