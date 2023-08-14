@@ -20,12 +20,22 @@ body {
   font-size: 36px;
   font-weight: bold;
 }
-
-h1 {
-  font-size: 96px;
+h1,
+h2 {
   font-family: "Playfair Display", serif;
 }
+h1 {
+  font-size: 96px;
+}
 
+h2 {
+  font-size: 45px;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
 .hero h3 {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
@@ -33,4 +43,45 @@ h1 {
 
 .btn-branding {
   background: white;
+}
+
+.container-fluid {
+  background: var(--back-color);
+}
+
+.nav-link {
+  color: var(--primary-color);
+}
+
+#brand-logo {
+  width: 180px;
+}
+
+.container {
+  margin: 15px auto;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 65px;
+    font-family: "Playfair Display", serif;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+}
+
+#logo-app {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.app-description {
+  background: var(--light-color);
+  padding: 15px;
 }
