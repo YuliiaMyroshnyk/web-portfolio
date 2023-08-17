@@ -60,6 +60,24 @@ h4 {
 .container {
   margin: 15px auto;
 }
+
+.about-content {
+  padding: 160px 20px;
+  text-align: center;
+}
+
+.about-content h1 {
+  font-size: 64px;
+}
+
+.about-content h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+}
+
+.about-photo {
+  width: 350px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
