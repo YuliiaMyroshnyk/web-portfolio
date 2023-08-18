@@ -124,7 +124,8 @@ h2 {
 
 .links {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .education {
@@ -169,6 +170,24 @@ h2 {
   background: var(--light-color);
   padding: 15px;
   border-radius: 20px;
+  margin-top: 40px;
+}
+
+.projects h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.projects h4 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.projects p {
+  text-align: justify;
+  text-indent: 30px;
 }
 
 @media (max-width: 900px) {
