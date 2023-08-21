@@ -140,7 +140,7 @@ h2 {
 }
 
 .main-content {
-  padding: 100px 20px;
+  padding: 100px 20px 0 20px;
   text-align: center;
 }
 
@@ -190,27 +190,6 @@ h2 {
   text-indent: 30px;
 }
 
-nav {
-  padding: 20px 0;
-  font-family: var(--default-font-family);
-}
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 25px;
-  margin-left: 15px;
-}
-
-nav a {
-  text-decoration: none;
-  color: var(--primary-color);
-}
-
 nav a:hover,
 nav li.active a {
   color: rgb(27, 26, 26);
@@ -241,11 +220,18 @@ footer .social-media a {
 }
 
 footer .mail-link:hover,
-footer .social-media a:hover {
+footer .social-media a:hover,
+footer p a:hover {
   color: rgb(27, 26, 26);
 }
 
-@media (max-width: 900px) {
+footer p {
+  margin: 20px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+@media (max-width: 800px) {
   h1 {
     font-size: 44px;
     line-height: 2;

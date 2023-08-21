@@ -36,28 +36,32 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid">
-        <img src="images/yuliia-myroshnyk.png" id="brand-logo" />
+        <img
+          src="images/yuliia-myroshnyk.png"
+          alt="Yuliia Myroshnyk logo"
+          id="brand-logo"
+        />
+
         <button
           class="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html" title="Homepage"
-                >Homepage</a
-              >
+              <a class="nav-link" href="/" title="Homepage">Homepage</a>
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav-link active"
                 href="/about.html"
                 title="About Yuliia Myroshnyk"
                 >About me</a
@@ -67,12 +71,15 @@
               <a
                 class="nav-link"
                 href="/work.html"
-                title="Projects Yuliia Myroshnyk"
+                title="Projects by Yuliia Myroshnyk"
                 >Projects</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact.html" title="Contacts"
+              <a
+                class="nav-link"
+                href="/contact.html"
+                title="Contact Yuliia Myroshnyk"
                 >Contact me</a
               >
             </li>
@@ -104,9 +111,22 @@
             </p>
             <p>Goal-oriented and always open to new knowledge.</p>
           </div>
+          <div class="links">
+            <a
+              href="/work.html"
+              class="app-button"
+              id="more-projects"
+              title="Projects"
+              >Want to see my projects?</a
+            >
+          </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/myroshnyk_photo.jpg" class="img-fluid about-photo" />
+          <img
+            src="images/myroshnyk_photo.jpg"
+            class="img-fluid about-photo"
+            alt="Photo Yuliia Myroshnyk"
+          />
         </div>
       </div>
       <div class="education">
@@ -160,6 +180,50 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="container">
+      <footer>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:yuliyamyro@gmail.com"
+            class="mail-link"
+            title="Email Yuliia Myroshnyk"
+            >yuliyamyro@gmail.com</a
+          >
+        </div>
+        <div class="social-media">
+          <a
+            href="https://www.facebook.com/juliette.miroshnik"
+            title="Facebook profile"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/yuliia-myroshnyk-591881261/"
+            title="LinkedIn profile"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/YuliiaMyroshnyk/"
+            title="GitHub profile"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+        <div>
+          <p>
+            This project was coded by Yuliia Myroshnyk and it is
+            <a
+              href="https://github.com/YuliiaMyroshnyk/web-portfolio"
+              target="_blank"
+              title="GitHub project profile"
+              >open-source code</a
+            >
+          </p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
