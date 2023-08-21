@@ -211,6 +211,40 @@ nav a {
   color: var(--primary-color);
 }
 
+nav a:hover,
+nav li.active a {
+  color: rgb(27, 26, 26);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .mail-link {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 24px;
+  text-align: center;
+  transition: all 150ms ease-in-out;
+  font-family: var(--headings-font-family);
+}
+
+footer .social-media {
+  text-align: center;
+}
+
+footer .social-media a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  font-size: 30px;
+  transition: all 150ms ease-in-out;
+}
+
+footer .mail-link:hover,
+footer .social-media a:hover {
+  color: rgb(27, 26, 26);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
